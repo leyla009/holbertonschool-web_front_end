@@ -1,27 +1,46 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<title>Homepage - Techium</title>
-	<meta name="description" content="Techium is a digital agency">
-	<link rel="icon" type="image/x-icon" href="./favicon.ico">
-	<link rel="icon" type="image/png" href="./favicon.png">
-</head>
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+}
 
-<body>
-	<header>Header</header>
-	<main>
-		<section>Hero section</section>
-		<section>Services section</section>
-		<section>Works section</section>
-		<section>About section</section>
-		<section>Latest news section</section>
-		<section>Testimonials section</section>
-		<section>Contact section</section>
-	</main>
-	<footer>Footer</footer>
-</body>
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+}
 
-</html>
+a {
+    color:var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: var(--color-primary);
+}
+
+.section-tagline {
+    color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
