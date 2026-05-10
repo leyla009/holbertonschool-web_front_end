@@ -1,18 +1,16 @@
-/* 
-   Target the root element to define global variables. 
-   In CSS, :root usually refers to the <html> element.
-*/
 :root {
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Set the base font for the entire page */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--font-family-base);
 }
 
-/* Target all heading levels (h1 through h6) */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
